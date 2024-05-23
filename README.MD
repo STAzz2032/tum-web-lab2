@@ -15,8 +15,13 @@ Orhid Color is a leading advertising company with years of experience in deliver
 
 ## Screenshots
 
+<<<<<<< HEAD:Readme.md
+![Screenshot 1](screenshots/1.png)
+*Description of Screenshot 1*
+=======
 ![Screenshot 1](screeshots/1.png)
 *Navigation screen*
+>>>>>>> 8cfb49a0f1a6d2b2dcdc80f4eab48788110dd62d:README.MD
 
 ![Screenshot 2](screeshots/2.png)
 *Section screen*
