@@ -16,13 +16,13 @@ Orhid Color is a leading advertising company with years of experience in deliver
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](screenshots/1.png)
 *Description of Screenshot 1*
 
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 2](screenshots/2.png)
 *Description of Screenshot 2*
 
-![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 3](screenshots/3.png)
 *Description of Screenshot 3*
 
 ## Technologies Used
