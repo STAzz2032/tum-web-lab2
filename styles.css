@@ -96,3 +96,10 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
 }
+
+footer {
+    background: #28282B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
