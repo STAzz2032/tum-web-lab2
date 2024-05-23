@@ -12,7 +12,6 @@ Orhid Color is a leading advertising company with years of experience in deliver
 - **Modern Aesthetic:** Clean and contemporary design elements.
 - **User-Friendly Navigation:** Easy-to-use interface.
 - **Informative Content:** Detailed sections about company, portfolio, sevices and contacts. 
-- **Contact Form:** Easy way for visitors to get in touch.
 
 ## Screenshots
 
