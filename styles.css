@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f8f8f8;
@@ -5,6 +6,7 @@ body {
     scroll-behavior: smooth;
 }
 
+/* Header Styles */
 header {
     background: #fff;
     color: #333;
@@ -31,23 +33,24 @@ header p {
     font-weight: 400;
 }
 
-nav {
+/* Desktop Navigation Styles */
+.desktop-nav {
     background: #28282B;
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
+.desktop-nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-nav li {
+.desktop-nav li {
     margin: 0 15px;
 }
 
-nav a {
+.desktop-nav a {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 500;
@@ -57,11 +60,44 @@ nav a {
     transition: background 0.3s ease;
 }
 
-nav a:hover {
+.desktop-nav a:hover {
     background: #e0e0e0;
     color: #28282B;
 }
 
+/* Mobile Navigation Styles */
+.mobile-nav {
+    display: none;
+}
+
+.mobile-nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.mobile-nav li {
+    margin: 10px 0;
+}
+
+.mobile-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    background: #28282B;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.mobile-nav a:hover {
+    background: #e0e0e0;
+    color: #28282B;
+}
+
+/* Section Styles */
 .section {
     padding: 80px 20px;
     text-align: center;
@@ -97,9 +133,24 @@ nav a:hover {
     margin-top: 40px;
 }
 
+/* Footer Styles */
 footer {
     background: #28282B;
     color: #FFFFFF;
     text-align: center;
     padding: 20px;
 }
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    /* Hide desktop navigation on mobile */
+    .desktop-nav {
+        display: none;
+    }
+
+    /* Show mobile navigation on mobile */
+    .mobile-nav {
+        display: block;
+    }
+
+    /*
