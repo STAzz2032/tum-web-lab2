@@ -5,7 +5,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Custom Styles */
 header {
     background: #fff;
     color: #333;
@@ -33,7 +32,7 @@ header p {
 }
 
 nav {
-    background: #f8f8f8;
+    background: #28282B;
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -49,7 +48,7 @@ nav li {
 }
 
 nav a {
-    color: #333;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1em;
@@ -60,4 +59,40 @@ nav a {
 
 nav a:hover {
     background: #e0e0e0;
+    color: #28282B;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.section:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section p {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-top: 80px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section img {
+    max-width: 55%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
 }
